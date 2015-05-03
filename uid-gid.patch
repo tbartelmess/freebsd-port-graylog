@@ -1,0 +1,19 @@
+--- GIDs.orig	2015-05-03 11:45:59.000000000 -0400
++++ GIDs	2015-05-03 11:45:34.000000000 -0400
+@@ -308,6 +308,7 @@
+ emby:*:989:
+ oozie:*:990:
+ sguil:*:991:
++graylog:*:992:
+ ebnetd:*:999:
+ nogroup:*:65533:
+ nobody:*:65534:
+--- UIDs.orig	2015-05-03 11:46:14.000000000 -0400
++++ UIDs	2015-05-03 11:45:40.000000000 -0400
+@@ -317,5 +317,6 @@
+ emby:*:989:989::0:0:Emby:/nonexistent:/usr/sbin/nologin
+ oozie:*:990:990::0:0:Apache Oozie user:/nonexistent:/usr/sbin/nologin
+ sguil:*:991:991::0:0:Sguil:/nonexistent:/usr/sbin/nologin
++graylog:*:992:992::0:0:Graylog:/nonexistent:/usr/sbin/nologin
+ ebnetd:*:999:999::0:0:EBNETD:/nonexistent:/usr/sbin/nologin
+ nobody:*:65534:65534::0:0:Unprivileged user:/nonexistent:/usr/sbin/nologin
