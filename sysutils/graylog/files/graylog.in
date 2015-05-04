@@ -79,6 +79,8 @@ java_options=" -Xms${graylog_min_mem} \
 
 start_precmd="graylog_precmd"
 
+pidfile=/var/run/${name}.pid
+
 command="/usr/sbin/daemon"
 command_args="-f /usr/local/bin/java ${java_options} -jar ${graylog_dir}/graylog.jar server --configfile ${graylog2_config} --pidfile ${pidfile}"
 
