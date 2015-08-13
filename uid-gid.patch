@@ -1,19 +1,19 @@
---- GIDs.orig	2015-05-03 11:45:59.000000000 -0400
-+++ GIDs	2015-05-03 11:45:34.000000000 -0400
-@@ -308,6 +308,7 @@
- emby:*:989:
- oozie:*:990:
- sguil:*:991:
-+graylog:*:992:
+--- GIDs.orig	2015-08-10 14:15:55.676605064 +0000
++++ GIDs	2015-08-10 14:17:22.090597751 +0000
+@@ -322,6 +322,7 @@
+ rpkirtr:*:995:
+ tarantool:*:996:
+ bareos:*:997:
++graylog:*:998:
  ebnetd:*:999:
  nogroup:*:65533:
  nobody:*:65534:
---- UIDs.orig	2015-05-03 11:46:14.000000000 -0400
-+++ UIDs	2015-05-03 11:45:40.000000000 -0400
-@@ -317,5 +317,6 @@
- emby:*:989:989::0:0:Emby:/nonexistent:/usr/sbin/nologin
- oozie:*:990:990::0:0:Apache Oozie user:/nonexistent:/usr/sbin/nologin
- sguil:*:991:991::0:0:Sguil:/nonexistent:/usr/sbin/nologin
-+graylog:*:992:992::0:0:Graylog:/nonexistent:/usr/sbin/nologin
+--- UIDs.orig	2015-08-10 14:15:44.684602874 +0000
++++ UIDs	2015-08-10 14:16:44.699598711 +0000
+@@ -330,5 +330,6 @@
+ rpkirtr:*:995:995::0:0:RPKI router server:/nonexistent:/usr/sbin/nologin
+ tarantool:*:996:996::0:0:Tarantool Daemon:/nonexistent:/usr/sbin/nologin
+ bareos:*:997:997::0:0:Bareos Daemon:/var/db/bareos:/usr/sbin/nologin
++graylog:*:998:998::0:0:Graylog:/nonexistent:/usr/sbin/nologin
  ebnetd:*:999:999::0:0:EBNETD:/nonexistent:/usr/sbin/nologin
  nobody:*:65534:65534::0:0:Unprivileged user:/nonexistent:/usr/sbin/nologin
